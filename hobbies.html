@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Hobbies</title>
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+        }
+        #hobbies
+        {
+            background-color: #b0e0e2;
+        }
+        #hobbies h2
+        {
+            background-color:  #458c8f;
+            box-shadow: #458c8f 0 0 10px;
+            padding: 0 0 5px 0;
+            font-size: 1.7em; 
+        }
+        .hobbies-images
+        {
+            padding:1em 0;
+            display:flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .hobbies-images figure
+        {
+            text-align: center;
+            margin:auto;
+            padding: 10px;
+        }
+        .hobbies-images figure img
+        {
+            border-radius: 10px;
+            border: 1px solid black;
+            box-shadow: black 0 0 50px;
+            max-width: 100%;
+            height: 180px;
+        }
+        figcaption
+        {
+            padding-top: 0.7em;
+            font-size: 1.1em;
+        }
+        @media(min-width: 769px)
+        {
+            .hobbies-images figure img
+            {
+                height: 200px;
+            }
+            .hobbies-images
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+
+    <!---------------------------------------Nav Bar--------------------------------------------->
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <a href="index.html"><img src="images/alfred-logo.png" alt="logo"></a>
+        </label>
+        <ul>
+            <li><a href="industry.html">Industrial Exposure</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!----------------------------------------Hobbies---------------------------------------->
+
+   <div id="hobbies"> 
+    <h2>Hobbies</h2>   
+        <div class="hobbies-images">
+            <figure>
+                <img src="images/photoshop1.jpg" alt="photoshop">
+                <figcaption>Photoshop</figcaption>
+            </figure>
+            <figure>
+                <img src="images/videoediting1.jpg" alt="videoediting">
+                <figcaption>Video Editing</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cycling1.jpg" alt="cycling">
+                <figcaption>Cycling</figcaption>
+            </figure>
+            <figure>
+                <img src="images/badminton1.jpg" alt="badminton">
+                <figcaption>Badminton</figcaption>
+            </figure>
+            <figure>
+                <img src="images/football1.jpg" alt="football">
+                <figcaption>Football</figcaption>
+            </figure>
+        </div>
+    </div> 
+</body>
+</html>

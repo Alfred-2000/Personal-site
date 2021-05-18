@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Professional Skills</title>
+    <style>
+        body
+        {
+            margin: 0;
+        }
+        .skills-img figure img
+        {
+            max-width: 100%;
+            height: auto;
+            display: block;
+
+        }
+        #skills h2
+        {
+            text-align: center;
+            padding-top: 65px;
+            margin: 0;
+        }
+        .skills
+        {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .skills-img
+        {
+            align-items: center;
+            height: 100%;
+            width: min(90%, 50em);
+            margin: 0 auto;
+        }
+        figure
+        {
+            float: left;
+            justify-content: space-around;
+            max-width: 50%;
+            margin: 0;
+            padding: 1.5em;
+            box-sizing: border-box;
+        }
+        figcaption 
+        {
+            padding-top: 0.5em;
+            text-align: center;
+            font-size: 1.25em;
+        }
+        @media(min-width: 36em)
+        {
+            html
+            {
+                font-size: 18px;
+            }
+            figure
+            {
+                max-width: 20%;
+                padding: 3.5em 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+     <!---------------------------------------Nav Bar--------------------------------------------->
+
+     <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <a href="index.html"><img src="images/alfred-logo.png" alt="logo"></a>
+        </label>
+        <ul>
+            <li><a href="industry.html">Industrial Exposure</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+     <!---------------------------------------Professional Skills--------------------------------------------->
+
+    <section id="skills">
+        <h2 >Skills</h2>
+        <div class="skills-img">
+            <figure>
+                <img src="images/python.png" alt="python">
+                <figcaption>Python</figcaption>
+            </figure>
+            <figure>
+                <img src="images/java.png" alt="java">
+                <figcaption>Java</figcaption>
+            </figure>
+            <figure>
+                <img src="images/c_lang.png" alt="c">
+                <figcaption>C</figcaption>
+            </figure>
+            <figure>
+                <img src="images/c++.png" alt="c++">
+                <figcaption>C++</figcaption>
+            </figure>
+            <figure>
+                <img src="images/embedded.png" alt="c++">
+                <figcaption>Embedded</figcaption>
+            </figure>
+            <figure>
+                <img src="images/html5.png" alt="html">
+                <figcaption>Html</figcaption>
+            </figure>
+            <figure>
+                <img src="images/css.png" alt="css">
+                <figcaption>Css</figcaption>
+            </figure>
+            <figure>
+                <img src="images/javascript.png" alt="javascript">
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Matlab.png" alt="matlab">
+                <figcaption>Matlab</figcaption>
+            </figure>
+            <figure>
+                <img src="images/arduino.png" alt="c++">
+                <figcaption>Arduino</figcaption>
+            </figure>
+        </div> 
+    </section>
+</body>
+</html>

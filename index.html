@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>About Me</title>
+    <style>
+        .social-media img
+        {
+            max-width: 100%;
+            height: 30px;
+        }
+        #about-me
+        {
+            height: 100vh;
+            background: url(images/space.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .overlay-about-me
+        {
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .content-about-me
+        {
+            margin: 0;
+        }
+        .my-views
+        {
+            text-align: center;   
+            font-weight: bold;
+            width: min(85%, 1024px);
+            padding: 10em 0 4em 0;
+            color: blanchedalmond;
+            margin: 0 auto ;
+            line-height: 1.5em;
+            letter-spacing: 1px;
+        }
+        .my-views h3
+        {
+            margin: 1em 0 2.5em 0;
+        }
+        .social-media
+        {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            margin: 0 auto;
+            width: 70%;       
+        }
+        @media(min-width: 769px)
+        {
+            #about-me
+            {
+                height: 100vh;
+                background: url(images/cycling.jpg)no-repeat center;
+                background-size: cover;
+            }
+            .content-about-me
+            {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                padding: 15em 0;
+            }
+            .my-views
+            {
+                padding: 0;
+                margin: 0;
+                width: 50%;
+            }
+            .social-media
+            {
+                display: flex;
+                flex-direction: column;
+                padding: 0;
+                margin: 0 2em; 
+                width: auto;   
+            }
+            .social-media li
+            {
+                padding: 0.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!---------------------------------------Nav Bar--------------------------------------------->
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">
+            <a href="index.html"><img src="images/alfred-logo.png" alt="logo"></a>
+        </label>
+        <ul>
+            <li><a href="industry.html">Industrial Exposure</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!---------------------------------------Header--------------------------------------------->
+
+
+    <header id="about-me"> 
+        <div class="overlay-about-me"> 
+           <div class="content-about-me">
+                <div class="my-views">             
+                    <h2>
+                        Hi! 👋<br> I'm Alfred P, 
+                    </h2> 
+                    <h3>
+                        an Electronics and Communication Engineer
+                    </h3>
+                    <p>
+                        An Electronics Engineer turned web developer passionate about leveraging my technical    background to break down challenging problems and create delighful and scalable user experiences.A recent graduate of Anna University with Bachelor's program.
+                    </p> 
+                </div> 
+                <ul class="social-media">
+                    <li>
+                        <a href="https://www.linkedin.com/in/alfred-p-878028169/">
+                            <img src="images/linkedin.png" alt="linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Alfred-2000">
+                            <img src="images/github.png" alt="github">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://join.skype.com/invite/pqOm1aiWXXYv">
+                            <img src="images/skype.png" alt="skype">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Alfred1003">
+                            <img src="images/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Alfred_10032000">
+                            <img src="images/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/alfred_1003/">
+                            <img src="images/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+                </ul>
+           </div>
+        </div>
+    </header>  
+</body>
+</html>
